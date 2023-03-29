@@ -1,0 +1,20 @@
+[
+    {
+        "img" : "/images/large/bed14-1.jpg",
+        "heading" : "30% OFF",
+        "textLines" : [
+            "Get Bed 14 + Pillow + Mattress set",
+            "and GET DISCOUNT!"
+        ],
+        "link" : "/ad/bed14/"
+    },
+    {
+        "img" : "/images/large/bed13-1.jpg",
+        "heading" : "40% OFF",
+        "textLines" : [
+            "Get Bed 13 + Pillow + Mattress set",
+            "and GET DISCOUNT!"
+        ],
+        "link" : "/ad/bed13/"
+    }
+]

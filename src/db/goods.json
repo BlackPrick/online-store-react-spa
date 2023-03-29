@@ -1,0 +1,352 @@
+{
+    "bed1": {
+        "name": "Bed 1",
+        "price": "299.99",
+        "label": "bed1-1.jpg",
+        "characteristics" : {
+            "Height" : "80cm",
+            "Width" : "160cm",
+            "Length" : "180cm",
+            "Material" : "MDF"
+        },
+        "description": "A sleek silhouette and eye-catching modern design paired with a two-tone colour palette give this bed its contemporary appeal. Adding a dash of style to its surroundings, it also offers a comfortable night's sleep with centre support legs and integrated slats for plenty of support. It is available in a choice of finishes to suit your existing déco"
+    },
+    "bed2": {
+        "name": "Bed 2 + Pillow + Mattress",
+        "price": "320",
+        "label": "bed2-1.jpg",
+        "characteristics" : {
+            "Height" : "80cm",
+            "Width" : "160cm",
+            "Length" : "180cm",
+            "Material" : "MDF"
+        },
+        "description": "A sleek silhouette and eye-catching modern design paired with a two-tone colour palette give this bed its contemporary appeal. Adding a dash of style to its surroundings, it also offers a comfortable night's sleep with centre support legs and integrated slats for plenty of support. It is available in a choice of finishes to suit your existing déco"
+    },
+    "bed3": {
+        "name": "Bed 3",
+        "price": "215",
+        "label": "bed3-1.jpg",
+        "characteristics" : {
+            "Height" : "80cm",
+            "Width" : "160cm",
+            "Length" : "180cm",
+            "Material" : "MDF"
+        },
+        "description": "A sleek silhouette and eye-catching modern design paired with a two-tone colour palette give this bed its contemporary appeal. Adding a dash of style to its surroundings, it also offers a comfortable night's sleep with centre support legs and integrated slats for plenty of support. It is available in a choice of finishes to suit your existing déco"
+    },
+    "bed4": {
+        "name": "Bed 4",
+        "price": "230",
+        "label": "bed4-1.jpg",
+        "characteristics" : {
+            "Height" : "80cm",
+            "Width" : "160cm",
+            "Length" : "180cm",
+            "Material" : "MDF"
+        },
+        "description": "A sleek silhouette and eye-catching modern design paired with a two-tone colour palette give this bed its contemporary appeal. Adding a dash of style to its surroundings, it also offers a comfortable night's sleep with centre support legs and integrated slats for plenty of support. It is available in a choice of finishes to suit your existing déco"
+    },
+    "bed5": {
+        "name": "Bed 5",
+        "price": "264",
+        "label": "bed5-1.jpg",
+        "characteristics" : {
+            "Height" : "80cm",
+            "Width" : "160cm",
+            "Length" : "180cm",
+            "Material" : "MDF"
+        },
+        "description": "A sleek silhouette and eye-catching modern design paired with a two-tone colour palette give this bed its contemporary appeal. Adding a dash of style to its surroundings, it also offers a comfortable night's sleep with centre support legs and integrated slats for plenty of support. It is available in a choice of finishes to suit your existing déco"
+    },
+    "bed6": {
+        "name": "Bed 6",
+        "price": "249.99",
+        "label": "bed6-1.jpg",
+        "characteristics" : {
+            "Height" : "80cm",
+            "Width" : "160cm",
+            "Length" : "180cm",
+            "Material" : "MDF"
+        },
+        "description": "A sleek silhouette and eye-catching modern design paired with a two-tone colour palette give this bed its contemporary appeal. Adding a dash of style to its surroundings, it also offers a comfortable night's sleep with centre support legs and integrated slats for plenty of support. It is available in a choice of finishes to suit your existing déco"
+    },
+    "bed7": {
+        "name": "Bed 7 + Pillow + Mattress",
+        "price": "295",
+        "label": "bed7-1.jpg",
+        "characteristics" : {
+            "Height" : "80cm",
+            "Width" : "160cm",
+            "Length" : "180cm",
+            "Material" : "MDF"
+        },
+        "description": "A sleek silhouette and eye-catching modern design paired with a two-tone colour palette give this bed its contemporary appeal. Adding a dash of style to its surroundings, it also offers a comfortable night's sleep with centre support legs and integrated slats for plenty of support. It is available in a choice of finishes to suit your existing déco"
+    },
+    "bed8": {
+        "name": "Bed 8",
+        "price": "278",
+        "label": "bed8-1.jpg",
+        "characteristics" : {
+            "Height" : "80cm",
+            "Width" : "160cm",
+            "Length" : "180cm",
+            "Material" : "MDF"
+        },
+        "description": "A sleek silhouette and eye-catching modern design paired with a two-tone colour palette give this bed its contemporary appeal. Adding a dash of style to its surroundings, it also offers a comfortable night's sleep with centre support legs and integrated slats for plenty of support. It is available in a choice of finishes to suit your existing déco"
+    },
+    "bed9": {
+        "name": "Bed 9",
+        "price": "349.99",
+        "label": "bed9-1.jpg",
+        "characteristics" : {
+            "Height" : "80cm",
+            "Width" : "160cm",
+            "Length" : "180cm",
+            "Material" : "MDF"
+        },
+        "description": "A sleek silhouette and eye-catching modern design paired with a two-tone colour palette give this bed its contemporary appeal. Adding a dash of style to its surroundings, it also offers a comfortable night's sleep with centre support legs and integrated slats for plenty of support. It is available in a choice of finishes to suit your existing déco"
+    },
+    "bed10": {
+        "name": "Bed 10",
+        "price": "340",
+        "label": "bed10-1.jpg",
+        "characteristics" : {
+            "Height" : "80cm",
+            "Width" : "160cm",
+            "Length" : "180cm",
+            "Material" : "MDF"
+        },
+        "description": "A sleek silhouette and eye-catching modern design paired with a two-tone colour palette give this bed its contemporary appeal. Adding a dash of style to its surroundings, it also offers a comfortable night's sleep with centre support legs and integrated slats for plenty of support. It is available in a choice of finishes to suit your existing déco"
+    },
+    "bed11": {
+        "name": "Bed 11",
+        "price": "290",
+        "label": "bed11-1.jpg",
+        "characteristics" : {
+            "Height" : "80cm",
+            "Width" : "160cm",
+            "Length" : "180cm",
+            "Material" : "MDF"
+        },
+        "description": "A sleek silhouette and eye-catching modern design paired with a two-tone colour palette give this bed its contemporary appeal. Adding a dash of style to its surroundings, it also offers a comfortable night's sleep with centre support legs and integrated slats for plenty of support. It is available in a choice of finishes to suit your existing déco"
+    },
+    "bed12": {
+        "name": "Bed 12",
+        "price": "245",
+        "label": "bed12-1.jpg",
+        "characteristics" : {
+            "Height" : "80cm",
+            "Width" : "160cm",
+            "Length" : "180cm",
+            "Material" : "MDF"
+        },
+        "description": "A sleek silhouette and eye-catching modern design paired with a two-tone colour palette give this bed its contemporary appeal. Adding a dash of style to its surroundings, it also offers a comfortable night's sleep with centre support legs and integrated slats for plenty of support. It is available in a choice of finishes to suit your existing déco"
+    },
+    "bed13": {
+        "name": "Bed 13 + Pillow + Mattress",
+        "price": "270",
+        "label": "bed13-1.jpg",
+        "characteristics" : {
+            "Height" : "80cm",
+            "Width" : "160cm",
+            "Length" : "180cm",
+            "Material" : "MDF"
+        },
+        "description": "A sleek silhouette and eye-catching modern design paired with a two-tone colour palette give this bed its contemporary appeal. Adding a dash of style to its surroundings, it also offers a comfortable night's sleep with centre support legs and integrated slats for plenty of support. It is available in a choice of finishes to suit your existing déco"
+    },
+    "bed14": {
+        "name": "Bed 14 + Pillow + Mattress",
+        "price": "320",
+        "label": "bed14-1.jpg",
+        "characteristics" : {
+            "Height" : "80cm",
+            "Width" : "160cm",
+            "Length" : "180cm",
+            "Material" : "MDF"
+        },
+        "description": "A sleek silhouette and eye-catching modern design paired with a two-tone colour palette give this bed its contemporary appeal. Adding a dash of style to its surroundings, it also offers a comfortable night's sleep with centre support legs and integrated slats for plenty of support. It is available in a choice of finishes to suit your existing déco"
+    },
+    "pillow1": {
+        "name": "Pillow 1",
+        "price": "60",
+        "label": "pillow1-1.jpg",
+        "characteristics" : {
+            "Size" : "Standard",
+            "Width" : "50cm",
+            "Length" : "75cm",
+            "Fill material" : "Polyester",
+            "Pillow type" : "Bed Pillow"
+        },
+        "description": "Pillow Pair is the perfect choice for a relaxing nights sleep. Super silky micro fibres make our pillows incredibly soft to the touch. The cotton pillow cover provides an incredible softness that is ideal for helping you drift off to sleep."
+    },
+    "pillow2": {
+        "name": "Pillow 2",
+        "price": "85",
+        "label": "pillow2-1.jpg",
+        "characteristics" : {
+            "Size" : "Standard",
+            "Width" : "50cm",
+            "Length" : "75cm",
+            "Fill material" : "Polyester",
+            "Pillow type" : "Bed Pillow"
+        },
+        "description": "Pillow Pair is the perfect choice for a relaxing nights sleep. Super silky micro fibres make our pillows incredibly soft to the touch. The cotton pillow cover provides an incredible softness that is ideal for helping you drift off to sleep."
+    },
+    "pillow3": {
+        "name": "Pillow 3",
+        "price": "54",
+        "label": "pillow3-1.jpg",
+        "characteristics" : {
+            "Size" : "Standard",
+            "Width" : "50cm",
+            "Length" : "75cm",
+            "Fill material" : "Polyester",
+            "Pillow type" : "Bed Pillow"
+        },
+        "description": "Pillow Pair is the perfect choice for a relaxing nights sleep. Super silky micro fibres make our pillows incredibly soft to the touch. The cotton pillow cover provides an incredible softness that is ideal for helping you drift off to sleep."
+    },
+    "pillow4": {
+        "name": "Pillow 4",
+        "price": "58.99",
+        "label": "pillow4-1.jpg",
+        "characteristics" : {
+            "Size" : "Standard",
+            "Width" : "50cm",
+            "Length" : "75cm",
+            "Fill material" : "Polyester",
+            "Pillow type" : "Bed Pillow"
+        },
+        "description": "Pillow Pair is the perfect choice for a relaxing nights sleep. Super silky micro fibres make our pillows incredibly soft to the touch. The cotton pillow cover provides an incredible softness that is ideal for helping you drift off to sleep."
+    },
+    "pillow5": {
+        "name": "Pillow 5",
+        "price": "99.99",
+        "label": "pillow5-1.jpg",
+        "characteristics" : {
+            "Size" : "Standard",
+            "Width" : "50cm",
+            "Length" : "75cm",
+            "Fill material" : "Polyester",
+            "Pillow type" : "Bed Pillow"
+        },
+        "description": "Pillow Pair is the perfect choice for a relaxing nights sleep. Super silky micro fibres make our pillows incredibly soft to the touch. The cotton pillow cover provides an incredible softness that is ideal for helping you drift off to sleep."
+    },
+    "pillow6": {
+        "name": "Pillow 6",
+        "price": "69.99",
+        "label": "pillow6-1.jpg",
+        "characteristics" : {
+            "Size" : "Standard",
+            "Width" : "50cm",
+            "Length" : "75cm",
+            "Fill material" : "Polyester",
+            "Pillow type" : "Bed Pillow"
+        },
+        "description": "Pillow Pair is the perfect choice for a relaxing nights sleep. Super silky micro fibres make our pillows incredibly soft to the touch. The cotton pillow cover provides an incredible softness that is ideal for helping you drift off to sleep."
+    },
+    "pillow7": {
+        "name": "Pillow 7",
+        "price": "80",
+        "label": "pillow7-1.jpg",
+        "characteristics" : {
+            "Size" : "Standard",
+            "Width" : "50cm",
+            "Length" : "75cm",
+            "Fill material" : "Polyester",
+            "Pillow type" : "Bed Pillow"
+        },
+        "description": "Pillow Pair is the perfect choice for a relaxing nights sleep. Super silky micro fibres make our pillows incredibly soft to the touch. The cotton pillow cover provides an incredible softness that is ideal for helping you drift off to sleep."
+    },
+    "mattress1": {
+        "name": "Mattress 1",
+        "price": "500",
+        "label": "mattress1-1.jpg",
+        "characteristics" : {
+            "Height" : "20cm",
+            "Width" : "182.88cm",
+            "Length" : "182.88cm",
+            "Included components" : "1x Mattress",
+            "Weight" : "17 Kilograms"
+        },
+        "description": "The mattress is ideal for planet savers. Silentnight's Eco range features eco-friendly mattresses with sustainable fibres for a breathable & refreshing sleep that doesn’t cost the earth. The eco comfort filling is highly breathable so you can enjoy a rejuvenating and refreshing night’s sleep. Made from recycled plastic bottles, our Eco Comfort Fibre brings you incredible comfort that won’t cost the planet or your pocket. Featuring Silentnight's Mirapocket support system which offers even weight distribution to assist easy movement and improve spinal alignment for an undisturbed night’s sleep."
+    },
+    "mattress2": {
+        "name": "Mattress 2",
+        "price": "549.99",
+        "label": "mattress2-1.jpg",
+        "characteristics" : {
+            "Height" : "20cm",
+            "Width" : "182.88cm",
+            "Length" : "182.88cm",
+            "Included components" : "1x Mattress",
+            "Weight" : "17 Kilograms"
+        },
+        "description": "The mattress is ideal for planet savers. Silentnight's Eco range features eco-friendly mattresses with sustainable fibres for a breathable & refreshing sleep that doesn’t cost the earth. The eco comfort filling is highly breathable so you can enjoy a rejuvenating and refreshing night’s sleep. Made from recycled plastic bottles, our Eco Comfort Fibre brings you incredible comfort that won’t cost the planet or your pocket. Featuring Silentnight's Mirapocket support system which offers even weight distribution to assist easy movement and improve spinal alignment for an undisturbed night’s sleep."
+    },
+    "mattress3": {
+        "name": "Mattress 3",
+        "price": "465",
+        "label": "mattress3-1.jpg",
+        "characteristics" : {
+            "Height" : "20cm",
+            "Width" : "182.88cm",
+            "Length" : "182.88cm",
+            "Included components" : "1x Mattress",
+            "Weight" : "17 Kilograms"
+        },
+        "description": "The mattress is ideal for planet savers. Silentnight's Eco range features eco-friendly mattresses with sustainable fibres for a breathable & refreshing sleep that doesn’t cost the earth. The eco comfort filling is highly breathable so you can enjoy a rejuvenating and refreshing night’s sleep. Made from recycled plastic bottles, our Eco Comfort Fibre brings you incredible comfort that won’t cost the planet or your pocket. Featuring Silentnight's Mirapocket support system which offers even weight distribution to assist easy movement and improve spinal alignment for an undisturbed night’s sleep."
+    },
+    "mattress4": {
+        "name": "Mattress 4",
+        "price": "340",
+        "label": "mattress4-1.jpg",
+        "characteristics" : {
+            "Height" : "20cm",
+            "Width" : "182.88cm",
+            "Length" : "182.88cm",
+            "Included components" : "1x Mattress",
+            "Weight" : "17 Kilograms"
+        },
+        "description": "The mattress is ideal for planet savers. Silentnight's Eco range features eco-friendly mattresses with sustainable fibres for a breathable & refreshing sleep that doesn’t cost the earth. The eco comfort filling is highly breathable so you can enjoy a rejuvenating and refreshing night’s sleep. Made from recycled plastic bottles, our Eco Comfort Fibre brings you incredible comfort that won’t cost the planet or your pocket. Featuring Silentnight's Mirapocket support system which offers even weight distribution to assist easy movement and improve spinal alignment for an undisturbed night’s sleep."
+    },
+    "mattress5": {
+        "name": "Mattress 5",
+        "price": "800",
+        "label": "mattress5-1.jpg",
+        "characteristics" : {
+            "Height" : "20cm",
+            "Width" : "182.88cm",
+            "Length" : "182.88cm",
+            "Included components" : "1x Mattress",
+            "Weight" : "17 Kilograms"
+        },
+        "description": "The mattress is ideal for planet savers. Silentnight's Eco range features eco-friendly mattresses with sustainable fibres for a breathable & refreshing sleep that doesn’t cost the earth. The eco comfort filling is highly breathable so you can enjoy a rejuvenating and refreshing night’s sleep. Made from recycled plastic bottles, our Eco Comfort Fibre brings you incredible comfort that won’t cost the planet or your pocket. Featuring Silentnight's Mirapocket support system which offers even weight distribution to assist easy movement and improve spinal alignment for an undisturbed night’s sleep."
+    },
+    "mattress6": {
+        "name": "Mattress 6",
+        "price": "699.99",
+        "label": "mattress6-1.jpg",
+        "characteristics" : {
+            "Height" : "20cm",
+            "Width" : "182.88cm",
+            "Length" : "182.88cm",
+            "Included components" : "1x Mattress",
+            "Weight" : "17 Kilograms"
+        },
+        "description": "The mattress is ideal for planet savers. Silentnight's Eco range features eco-friendly mattresses with sustainable fibres for a breathable & refreshing sleep that doesn’t cost the earth. The eco comfort filling is highly breathable so you can enjoy a rejuvenating and refreshing night’s sleep. Made from recycled plastic bottles, our Eco Comfort Fibre brings you incredible comfort that won’t cost the planet or your pocket. Featuring Silentnight's Mirapocket support system which offers even weight distribution to assist easy movement and improve spinal alignment for an undisturbed night’s sleep."
+    },
+    "mattress7": {
+        "name": "Mattress 7",
+        "price": "520",
+        "label": "mattress7-1.jpg",
+        "characteristics" : {
+            "Height" : "20cm",
+            "Width" : "182.88cm",
+            "Length" : "182.88cm",
+            "Included components" : "1x Mattress",
+            "Weight" : "17 Kilograms"
+        },
+        "description": "The mattress is ideal for planet savers. Silentnight's Eco range features eco-friendly mattresses with sustainable fibres for a breathable & refreshing sleep that doesn’t cost the earth. The eco comfort filling is highly breathable so you can enjoy a rejuvenating and refreshing night’s sleep. Made from recycled plastic bottles, our Eco Comfort Fibre brings you incredible comfort that won’t cost the planet or your pocket. Featuring Silentnight's Mirapocket support system which offers even weight distribution to assist easy movement and improve spinal alignment for an undisturbed night’s sleep."
+    }
+}

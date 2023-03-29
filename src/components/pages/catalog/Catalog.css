@@ -1,0 +1,32 @@
+
+.tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 1.5rem;
+}
+
+.tools select {
+    width: 200px;
+    padding: 0.5rem;
+    border: 1px solid grey;
+    font-size: 1.1rem;
+}
+
+.tools select option a {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (min-width: 651px) {
+    .catalog h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .catalog h1 {
+        font-size: 8vw;
+    }
+}

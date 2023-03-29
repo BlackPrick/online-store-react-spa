@@ -1,0 +1,11 @@
+{
+    "beds" : [
+        "bed1", "bed2", "bed3", "bed4", "bed5", "bed6", "bed7", "bed8", "bed9", "bed10", "bed11", "bed12", "bed13", "bed14" 
+    ],
+    "mattresses" : [
+        "mattress1", "mattress2", "mattress3", "mattress4", "mattress5", "mattress6", "mattress7", "bed2", "bed7", "bed13", "bed14"
+    ],
+    "pillows" : [
+        "pillow1", "pillow2", "pillow3", "pillow4", "pillow5", "pillow6", "pillow7", "bed2", "bed7", "bed13", "bed14"
+    ]
+}

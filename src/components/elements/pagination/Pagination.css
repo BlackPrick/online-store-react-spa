@@ -1,0 +1,27 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+    padding: 2rem 0;
+}
+
+.pagination a {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border: 1px dotted black;
+    color: black;
+    font-size: 1.1rem;
+}
+.pagination a:hover {
+    border: 1px solid black;
+}
+a.active {
+    outline: 2px solid black;
+    border: none;
+    font-weight: bold;
+}

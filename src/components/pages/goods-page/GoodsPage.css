@@ -1,0 +1,356 @@
+@media screen and (min-width: 1153px) {
+    .goods-page-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        column-gap: 2rem;
+        row-gap: 1rem;
+        grid-template-areas:
+            "header header"
+            "images  info";
+    }
+}
+
+@media screen and (max-width: 1152px) and (min-width: 769px) {
+    .goods-page-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+        row-gap: 1rem;
+        grid-template-areas:
+            "header header"
+            "images  info";
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .goods-page-wrap {
+        display: grid;
+        row-gap: 6vw;
+        grid-template-areas:
+            "header"
+            "images"
+            "info";
+    }
+}
+
+/* =======================================Ad page content */
+@media screen and (min-width: 769px) {
+    /* Ad page header */
+    .goods-page-hdr {
+        grid-area: header;
+    }
+
+    .goods-page-hdr h1 {
+        font-size: 2.6rem;
+    }
+
+    /* Ad page images */
+    .goods-page-images {
+        display: grid;
+        grid-template-columns: 15% 83%;
+        column-gap: 2%;
+        grid-area: images;
+    }
+
+    .goods-page-images ul {
+        display: inline-flex;
+        flex-direction: column;
+        row-gap: 0.3rem;
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    .goods-page-images ul li {
+        position: relative;
+        padding-top: 100%;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        border: 1px dotted black;
+    }
+
+    .goods-page-images ul li::after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(225, 225, 225, 0.3);
+        opacity: 0;
+    }
+
+    .goods-page-images ul li:hover::after {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .goods-page-images ul li.active {
+        border: 2px solid black;
+    }
+
+    .goods-page-images figure {
+        position: relative;
+        padding-top: 100%;
+        border: 1px dotted grey;
+        border-radius: 0.5rem;
+        overflow: hidden;
+    }
+
+    .goods-page-images img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    /* Ad page information */
+    .goods-page-info {
+        grid-area: info;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+
+    .goods-page-info h2 {
+        font-size: 2.5rem;
+        padding-bottom: 0 0 0.5rem 1rem;
+        border-bottom: 2px solid black;
+    }
+
+    .goods-page-info figcaption {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0.2rem;
+    }
+
+    .goods-page-info p {
+        font-size: 1.1rem;
+    }
+
+    .goods-page-info ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        padding-right: 2rem;
+    }
+
+    .goods-page-info li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
+        background-position: 0 90%;
+        background-size: 8px 1px;
+        background-repeat: repeat-x;
+        width: 100%;
+
+    }
+
+    .goods-page-info li span {
+        background-color: #fff;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    /* To cart button area */
+    .goods-page-tocart-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        height: 5rem;
+    }
+
+    .goods-page-tocart-wrap button {
+        position: absolute;
+        display: inline-flex;
+        column-gap: 1rem;
+        font-size: 2rem;
+        padding: 1rem 3rem;
+        background-color: black;
+        color: white;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .goods-page-tocart-wrap button:hover {
+        box-shadow: none;
+        border: 2px solid white;
+        color: var(--sel-color);
+    }
+    .goods-page-tocart-wrap button:hover svg {
+        fill: var(--sel-color);
+    }
+
+    .goods-page-tocart-wrap svg {
+        width: 2.4rem;
+        height: 2.4rem;
+        fill: white;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Ad page header */
+    .goods-page-hdr {
+        grid-area: header;
+    }
+
+    .goods-page-hdr h1 {
+        font-size: 8vw;
+    }
+
+    /* Ad page images */
+    .goods-page-images {
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 1vw;
+        grid-area: images;
+    }
+
+    .goods-page-images ul {
+        display: flex;
+        flex-direction: row;
+        column-gap: 1vw;
+        overflow-x: auto;
+    }
+
+    .goods-page-images ul li {
+        position: relative;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        border: 1px dotted black;
+    }
+
+    .goods-page-images ul li::after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(225, 225, 225, 0.3);
+        opacity: 0;
+    }
+
+    .goods-page-images ul li:hover::after {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .goods-page-images ul li.active {
+        border: 2px solid black;
+    }
+
+    .goods-page-images figure {
+        position: relative;
+        padding-top: 100%;
+        border: 1px dotted grey;
+        border-radius: 0.5rem;
+        overflow: hidden;
+    }
+
+    .goods-page-images img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    /* Ad page information */
+    .goods-page-info {
+        grid-area: info;
+        display: flex;
+        flex-direction: column;
+        row-gap: 6vw;
+    }
+
+    .goods-page-info h2 {
+        font-size: 8vw;
+        padding-bottom: 0 0 0.5rem 1rem;
+        border-bottom: 2px solid black;
+    }
+
+    .goods-page-info figcaption {
+        font-size: 6vw;
+        font-weight: bold;
+        margin-bottom: 1vw;
+    }
+
+    .goods-page-info p {
+        font-size: 4.4vw;
+    }
+
+    .goods-page-info ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4vw;
+        padding-right: 2vw;
+    }
+
+    .goods-page-info li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
+        background-position: 0 90%;
+        background-size: 8px 1px;
+        background-repeat: repeat-x;
+        width: 100%;
+
+    }
+
+    .goods-page-info li span {
+        background-color: #fff;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    /* To cart button area */
+    .goods-page-tocart-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 20vw;
+    }
+
+    .goods-page-tocart-wrap button {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 4vw;
+        font-size: 8vw;
+        padding: 4vw 0;
+        width: 80%;
+        background-color: black;
+        color: white;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .goods-page-tocart-wrap button:hover {
+        box-shadow: none;
+        border: 2px solid white;
+        color: var(--sel-color);
+    }
+    .goods-page-tocart-wrap button:hover svg {
+        fill: var(--sel-color);
+    }
+
+    .goods-page-tocart-wrap svg {
+        width: 10vw;
+        height: 10vw;
+        fill: white;
+    }
+}

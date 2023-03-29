@@ -1,0 +1,86 @@
+{
+    "bed1": [
+        "bed1-1.jpg", "bed-guide.jpg"
+    ],
+    "bed2": [
+        "bed2-1.jpg", "bed-guide.jpg"
+    ],
+    "bed3": [
+        "bed3-1.jpg", "bed-guide.jpg"
+    ],
+    "bed4": [
+        "bed4-1.jpg", "bed-guide.jpg"
+    ],
+    "bed5": [
+        "bed5-1.jpg", "bed-guide.jpg"
+    ],
+    "bed6": [
+        "bed6-1.jpg", "bed-guide.jpg"
+    ],
+    "bed7": [
+       "bed7-1.jpg", "bed-guide.jpg"
+    ],
+    "bed8": [
+        "bed8-1.jpg", "bed-guide.jpg"
+    ],
+    "bed9": [
+        "bed9-1.jpg", "bed-guide.jpg"
+    ],
+    "bed10": [
+        "bed10-1.jpg", "bed-guide.jpg"
+    ],
+    "bed11": [
+        "bed11-1.jpg", "bed-guide.jpg"
+    ],
+    "bed12": [
+        "bed12-1.jpg", "bed-guide.jpg"
+    ],
+    "bed13": [
+        "bed13-1.jpg", "bed-guide.jpg"
+    ],
+    "bed14": [
+        "bed14-1.jpg" , "bed-guide.jpg"
+    ],
+    "pillow1": [
+        "pillow1-1.jpg" , "pillow-guide.jpg"
+    ],
+    "pillow2": [
+        "pillow2-1.jpg" , "pillow-guide.jpg"
+    ],
+    "pillow3": [
+        "pillow3-1.jpg" , "pillow-guide.jpg"
+    ],
+    "pillow4": [
+        "pillow4-1.jpg" , "pillow-guide.jpg"
+    ],
+    "pillow5": [
+        "pillow5-1.jpg" , "pillow-guide.jpg"
+    ],
+    "pillow6": [
+        "pillow6-1.jpg" , "pillow-guide.jpg"
+    ],
+    "pillow7": [
+        "pillow7-1.jpg" , "pillow-guide.jpg"
+    ],
+    "mattress1": [
+        "mattress1-1.jpg" , "bed-guide.jpg"
+    ],
+    "mattress2": [
+        "mattress2-1.jpg" , "bed-guide.jpg"
+    ],
+    "mattress3": [
+        "mattress3-1.jpg" , "bed-guide.jpg"
+    ],
+    "mattress4": [
+        "mattress4-1.jpg" , "bed-guide.jpg"
+    ],
+    "mattress5": [
+        "mattress5-1.jpg" , "bed-guide.jpg"
+    ],
+    "mattress6": [
+        "mattress6-1.jpg" , "bed-guide.jpg"
+    ],
+    "mattress7": [
+        "mattress7-1.jpg" , "bed-guide.jpg"
+    ]
+}

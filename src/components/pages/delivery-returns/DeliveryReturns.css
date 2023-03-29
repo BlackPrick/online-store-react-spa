@@ -1,0 +1,28 @@
+.delivery-returns {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 2rem 0;
+}
+.delivery-returns h1, .delivery-returns h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+.delivery-returns p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.delivery-returns figure {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px dotted grey;
+    background-color: rgba(225,225,225,0.3);
+}
+.delivery-returns figcaption {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}

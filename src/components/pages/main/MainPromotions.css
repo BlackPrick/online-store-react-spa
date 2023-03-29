@@ -1,0 +1,147 @@
+@media only screen and (min-width: 769px) {
+    .main-promotions {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        padding: 2rem 0;
+    }
+    .main-promotions h4 {
+        margin-bottom: 2rem;
+    }
+    .main-promotions article {
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+        border: 1px solid grey;
+    }
+    .main-promotions article * {
+        text-align: center;
+    }
+    .main-promotions article:nth-child(odd) {
+        grid-template-columns: 20rem 1fr;
+        grid-template-areas: "picture info";
+    }
+    .main-promotions article:nth-child(even) {
+        grid-template-columns: 1fr 20rem;
+        grid-template-areas: "info picture";
+    }
+    
+    .main-promotions picture {
+        grid-area: picture;
+        position: relative;
+        overflow: hidden;
+        padding-top: 100%;
+        min-height: 10rem;
+    }
+    .main-promotions picture img {
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    .main-promotions aside {
+        grid-area: info;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #cfa754; */
+        background-color: #877879;
+        color:white;
+        padding: 1rem 0;
+    }
+    .main-promotions aside strong {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    .main-promotions aside p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 1rem;
+        font-size: 2rem;
+    }
+    
+    .main-promotions aside a {
+        border: 2px solid white;
+        font-size: 2rem;
+        text-transform: uppercase;
+        padding: 0.5rem 4rem;
+        margin-top: 2rem;
+    }
+    
+    .main-promotions aside a:hover {
+        background-color: #fff;
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-promotions {
+        display: flex;
+        flex-direction: column;
+        row-gap: 6vw;
+        padding: 6vw 0;
+    }
+    .main-promotions h4 {
+        margin-bottom: 6vw;
+    }
+    .main-promotions article {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        border: 1px solid grey;
+    }
+    .main-promotions article * {
+        text-align: center;
+    }
+    
+    .main-promotions picture {
+        position: relative;
+        overflow: hidden;
+        padding-top: 100%;
+    }
+    .main-promotions picture img {
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    .main-promotions aside {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #cfa754;
+        color:white;
+        padding: 3vw 0;
+    }
+    .main-promotions aside strong {
+        font-size: 8vw;
+        margin-bottom: 4vw;
+    }
+    .main-promotions aside p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 3vw;
+        font-size: 4.6vw;
+    }
+    
+    .main-promotions aside a {
+        border: 2px solid white;
+        font-size: 7vw;
+        text-transform: uppercase;
+        padding: 2vw 0;
+        width: 80%;
+        margin-top: 6vw;
+    }
+    
+    .main-promotions aside a:hover {
+        background-color: #fff;
+        color: black;
+    }
+}

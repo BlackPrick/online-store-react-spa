@@ -1,0 +1,98 @@
+.bookmarks-wrap {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 4;
+}
+
+.bookmarks-wrap figure {
+    display: grid;
+    grid-template-rows: 3rem 1fr;
+    /* height: 80%;
+    width: 70%; */
+    /* min-width: 600px; */
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: 1px solid grey;
+    box-shadow: grey 0px 6px 12px -2px, grey 0px 3px 7px -3px;
+}
+
+.bookmarks-wrap figcaption {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.bookmarks-wrap figcaption svg {
+    height: 2rem;
+    fill: white;
+}
+
+.bookmarks-wrap figcaption svg:hover {
+    cursor: pointer;
+    fill: var(--sel-color);
+}
+
+.bookmarks-wrap figure ul {
+    overflow: auto;
+}
+
+.bookmarks-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+.bookmarks-item:nth-child(even) {
+    background-color: rgba(225,225,225, 0.6);
+}
+.bookmarks-item:nth-child(odd) {
+    background-color: rgba(225,225,225, 0.2);
+}
+
+.bookmarks-item a {
+    font-size: 1.2rem;
+    color:darkblue;
+    text-decoration: underline;
+}
+
+.bookmarks-item a::before {
+    content: "\21D7";
+}
+.bookmarks-item button:hover svg {
+    fill: var(--sel-color);
+}
+.bookmarks-item svg {
+    height: 1.6rem;
+}
+
+@media screen and (min-width: 630px) {
+    .bookmarks-wrap figure {
+        height: 80%;
+        width: 70%;
+        min-width: 600px;
+    }
+}
+
+@media screen and (max-width: 629px) {
+    .bookmarks-wrap figure {
+        height: 90%;
+        width: 98%;
+    }
+}
