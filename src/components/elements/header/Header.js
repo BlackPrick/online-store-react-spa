@@ -17,6 +17,8 @@ export default function Header() {
     const location = useLocation().pathname;
     const cartNotification = (cartItemsNum !== 0) ? <div className="icon-notification">{cartItemsNum}</div> : "";
 
+    console.log(location)
+
     const showCart = () => document.getElementById("cart").classList.remove("hidden");
 
     const addBookmark = () => dispatch(add(location));
