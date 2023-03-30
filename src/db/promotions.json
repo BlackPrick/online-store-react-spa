@@ -6,7 +6,7 @@
             "Get Bed 14 + Pillow + Mattress set",
             "and GET DISCOUNT!"
         ],
-        "link" : "/ad/bed14/"
+        "link" : "/goods/bed14/"
     },
     {
         "img" : "bed13-1.jpg",
@@ -15,6 +15,6 @@
             "Get Bed 13 + Pillow + Mattress set",
             "and GET DISCOUNT!"
         ],
-        "link" : "/ad/bed13/"
+        "link" : "/goods/bed13/"
     }
 ]
