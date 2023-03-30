@@ -16,7 +16,7 @@ import DeliveryReturns from './components/pages/delivery-returns/DeliveryReturns
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/online-store-react-spa">
         <Header />
 
         <Routes>
