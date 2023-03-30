@@ -1,7 +1,7 @@
 {
   "main.css": "/online-store-react-spa/static/css/main.2750ef80.chunk.css",
-  "main.js": "/online-store-react-spa/static/js/main.2e36ebc5.chunk.js",
-  "main.js.map": "/online-store-react-spa/static/js/main.2e36ebc5.chunk.js.map",
+  "main.js": "/online-store-react-spa/static/js/main.b5bffca1.chunk.js",
+  "main.js.map": "/online-store-react-spa/static/js/main.b5bffca1.chunk.js.map",
   "static/js/1.dcf916b9.chunk.js": "/online-store-react-spa/static/js/1.dcf916b9.chunk.js",
   "static/js/1.dcf916b9.chunk.js.map": "/online-store-react-spa/static/js/1.dcf916b9.chunk.js.map",
   "static/js/2.290c487a.chunk.js": "/online-store-react-spa/static/js/2.290c487a.chunk.js",
@@ -11,6 +11,6 @@
   "static/media/App.css": "/online-store-react-spa/static/media/Modak.9b6bdd26.ttf",
   "static/css/main.2750ef80.chunk.css.map": "/online-store-react-spa/static/css/main.2750ef80.chunk.css.map",
   "index.html": "/online-store-react-spa/index.html",
-  "precache-manifest.2463357bf2efeba5b6445f5cac2bf46d.js": "/online-store-react-spa/precache-manifest.2463357bf2efeba5b6445f5cac2bf46d.js",
+  "precache-manifest.cced18cf831b61028af072bc7621b748.js": "/online-store-react-spa/precache-manifest.cced18cf831b61028af072bc7621b748.js",
   "service-worker.js": "/online-store-react-spa/service-worker.js"
 }
