@@ -1,6 +1,6 @@
 [
     {
-        "img" : "/online-store-react-spa/images/large/bed14-1.jpg",
+        "img" : "bed14-1.jpg",
         "heading" : "30% OFF",
         "textLines" : [
             "Get Bed 14 + Pillow + Mattress set",
@@ -9,7 +9,7 @@
         "link" : "/ad/bed14/"
     },
     {
-        "img" : "/online-store-react-spa/images/large/bed13-1.jpg",
+        "img" : "bed13-1.jpg",
         "heading" : "40% OFF",
         "textLines" : [
             "Get Bed 13 + Pillow + Mattress set",

@@ -7,6 +7,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { selectCart, selectCartTotal, remove, quantity } from '../../../redux/CartReducer';
 
 import { CloseIco } from '../../../Icons';
+import { imgUrlSmall } from '../../../urls.json';
 
 
 export default function Cart() {
@@ -20,7 +21,7 @@ export default function Cart() {
         dispatch(quantity([itemId, quant]));
     }
     const hideCart = (e) => {
-        if(!e.target.closest('#cart dialog') || e.target.closest('#hide-cart-btn')) {
+        if (!e.target.closest('#cart dialog') || e.target.closest('#hide-cart-btn')) {
             document.getElementById("cart").classList.add("hidden")
         }
     }
@@ -38,7 +39,7 @@ export default function Cart() {
                             <li className="cart-item" key={item}>
                                 <figure>
                                     <picture>
-                                        <img src={"/images/small/" + goods[item].label} alt={goods[item].name} />
+                                        <img src={imgUrlSmall + goods[item].label} alt={goods[item].name} />
                                     </picture>
                                     <figcaption>
                                         <a href={"/goods/" + item}><strong>{goods[item].name}</strong></a>

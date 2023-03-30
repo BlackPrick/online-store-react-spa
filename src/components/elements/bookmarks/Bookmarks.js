@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { CloseIco, DeleteIco } from '../../../Icons';
 
 import { useSelector, useDispatch } from 'react-redux';
-import { selectBookmarks, add, remove } from '../../../redux/BookmarksReducer';
+import { selectBookmarks, remove } from '../../../redux/BookmarksReducer';
 
 export default function Bookmarks() {
     const bookmarks = useSelector(selectBookmarks);

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { imgUrlLarge } from '../../../urls.json';
 
 
 export default function AdPageImages(props) {
@@ -6,7 +7,7 @@ export default function AdPageImages(props) {
     const images = props.data.images;
     const label = props.data.label;
 
-    const [imgView, setView] = useState(<img src={'/online-store-react-spa/images/large/' + label} alt={name} />);
+    const [imgView, setView] = useState(<img src={imgUrlLarge + label} alt={name} />);
 
     const displayImg = (e) => {
         let targetImg = e.target.firstChild;
@@ -20,7 +21,7 @@ export default function AdPageImages(props) {
         <div className="goods-page-images">
             <ul>
                 {images.map(function (item, key) {
-                    const image = <img src={'/online-store-react-spa/images/large/' + item} alt={name} />;
+                    const image = <img src={imgUrlLarge + item} alt={name} />;
                     const setClass = (item === label) ? "active" : "";
                     return <li className={setClass} onClick={displayImg} key={key}>{image}</li>;
                 })}

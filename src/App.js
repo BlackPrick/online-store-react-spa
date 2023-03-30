@@ -10,17 +10,18 @@ import Main from './components/pages/main/Main';
 import Catalog from './components/pages/catalog/Catalog';
 import GoodsPage from './components/pages/goods-page/GoodsPage';
 import Error from './components/pages/error/Error';
-import DeliveryReturns from './components/pages/delivery-returns/DeliveryReturns'
+import DeliveryReturns from './components/pages/delivery-returns/DeliveryReturns';
 
+import { basename } from './urls.json';
 
 function App() {
   return (
     <>
-      <Router basename="/online-store-react-spa">
+      <Router basename={basename}>
         <Header />
 
         <Routes>
-          <Route exact path="/online-store-react-spa/" element={<Main />}></Route>
+          <Route exact path="/" element={<Main />}></Route>
           <Route exact path="/catalog" element={<Error />}></Route>
           <Route path="/catalog/:category/:page/:sorting" element={<Catalog />}></Route>
           <Route path="/catalog/:category/:page/" element={<Catalog />}></Route>
@@ -30,7 +31,7 @@ function App() {
 
           <Route path="*" element={<Error />} />
         </Routes>
-        
+
         <Cart />
         <Bookmarks />
         <Footer />

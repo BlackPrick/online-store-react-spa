@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './MainPromotions.css';
 import promotions from '../../../db/promotions.json';
+import { imgUrlLarge } from '../../../urls.json';
 
 
 export default function MainPromotions() {
@@ -16,7 +17,7 @@ export default function MainPromotions() {
     const promoArr = [];
     promotions.forEach((promo, key) => {
         const heading = promo.heading;
-        const imgSrc = promo.img;
+        const imgSrc = imgUrlLarge + promo.img;
         const link = promo.link;
         const textLines = promo.textLines.map((line, index) => <span key={index}>{line}</span>);
         const imgId = "promo-img" + key;

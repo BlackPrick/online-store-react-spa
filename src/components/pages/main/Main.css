@@ -1,3 +1,11 @@
+.showcase {
+    background-image: url("/online-store-react-spa/images/main3.jpg");
+    /* background-image: url("/images/main3.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 @media only screen and (min-width: 769px) {
     .main-page section:not(.showcase) {
@@ -11,11 +19,6 @@
     }
 
     .showcase {
-        background-image: url("/online-store-react-spa/images/main3.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
         height: 60vh;
     }
 
@@ -157,11 +160,6 @@
     }
 
     .showcase {
-        background-image: url("/online-store-react-spa/images/main3.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
         height: 30vh;
     }
 

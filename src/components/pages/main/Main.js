@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Main.css';
 import Promotions from './MainPromotions';
+import { imgUrlSmall } from '../../../urls.json';
 
 import { useDispatch } from 'react-redux';
 import { setPageName } from '../../../redux/BookmarksReducer';
@@ -10,7 +11,7 @@ import { setPageName } from '../../../redux/BookmarksReducer';
 export default function Main() {
     const dispatch = useDispatch();
     dispatch(setPageName("Main page"));
-    
+
     return (
         <main className="main-page">
             <section className="showcase">
@@ -35,19 +36,19 @@ export default function Main() {
                     <nav>
                         <Link to={"/catalog/beds/1/"}>
                             <figure>
-                                <img src="/online-store-react-spa/images/small/bed2-1.jpg" alt="Luxury bed" />
+                                <img src={imgUrlSmall + "bed2-1.jpg"} alt="Luxury bed" />
                                 <figcaption>Beds</figcaption>
                             </figure>
                         </Link>
                         <Link to={"/catalog/mattresses/1/"}>
                             <figure>
-                                <img src="/online-store-react-spa/images/small/mattress1-1.jpg" alt="Memory foam mattress" />
+                                <img src={imgUrlSmall + "mattress1-1.jpg"} alt="Memory foam mattress" />
                                 <figcaption>Mattresses</figcaption>
                             </figure>
                         </Link>
                         <Link to={"/catalog/pillows/1/"}>
                             <figure>
-                                <img src="/online-store-react-spa/images/small/pillow5-1.jpg" alt="Comfortable pillows" />
+                                <img src={imgUrlSmall + "pillow5-1.jpg"} alt="Comfortable pillows" />
                                 <figcaption>Pillows</figcaption>
                             </figure>
                         </Link>
