@@ -18,7 +18,7 @@ export default function Catalog() {
     const cId = useParams().category;
     const page = (useParams().page === undefined) ? 1 : Number(useParams().page);
     const sorting = (useParams().sorting === undefined) ? "" : useParams().sorting;
-    const baseUrl = "/catalog/" + cId + "/";
+    const baseUrl = "/online-store-react-spa/catalog/" + cId + "/";
 
     const dispatch = useDispatch();
     dispatch(setPageName(`${categories[cId]} (Page ${page})`));

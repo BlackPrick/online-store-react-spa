@@ -21,12 +21,12 @@ function App() {
 
         <Routes>
           <Route exact path="/online-store-react-spa/" element={<Main />}></Route>
-          <Route exact path="/catalog" element={<Error />}></Route>
-          <Route path="/catalog/:category/:page/:sorting" element={<Catalog />}></Route>
-          <Route path="/catalog/:category/:page/" element={<Catalog />}></Route>
-          <Route path="/catalog/:category" element={<Catalog />}></Route>
-          <Route path="/goods/:goodsId" element={<GoodsPage />}></Route>
-          <Route path="/delivery-returns/" element={<DeliveryReturns />}></Route>
+          <Route exact path="/online-store-react-spa/catalog" element={<Error />}></Route>
+          <Route path="/online-store-react-spa/catalog/:category/:page/:sorting" element={<Catalog />}></Route>
+          <Route path="/online-store-react-spa/catalog/:category/:page/" element={<Catalog />}></Route>
+          <Route path="/online-store-react-spa/catalog/:category" element={<Catalog />}></Route>
+          <Route path="/online-store-react-spa/goods/:goodsId" element={<GoodsPage />}></Route>
+          <Route path="/online-store-react-spa/delivery-returns/" element={<DeliveryReturns />}></Route>
 
           <Route path="*" element={<Error />} />
         </Routes>

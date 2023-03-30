@@ -23,7 +23,7 @@ export default function Main() {
                 <div className="container">
                     <div className="main-delivery">
                         <h2>Express delivery and free returns</h2>
-                        <Link to={"/delivery-returns/"}>
+                        <Link to={"/online-store-react-spa/delivery-returns/"}>
                             Find out more
                         </Link>
                     </div>
@@ -33,19 +33,19 @@ export default function Main() {
                 <div className="container">
                     <h3>Categories</h3>
                     <nav>
-                        <Link to={"/catalog/beds/1/"}>
+                        <Link to={"/online-store-react-spa/catalog/beds/1/"}>
                             <figure>
                                 <img src="/online-store-react-spa/images/small/bed2-1.jpg" alt="Luxury bed" />
                                 <figcaption>Beds</figcaption>
                             </figure>
                         </Link>
-                        <Link to={"/catalog/mattresses/1/"}>
+                        <Link to={"/online-store-react-spa/catalog/mattresses/1/"}>
                             <figure>
                                 <img src="/online-store-react-spa/images/small/mattress1-1.jpg" alt="Memory foam mattress" />
                                 <figcaption>Mattresses</figcaption>
                             </figure>
                         </Link>
-                        <Link to={"/catalog/pillows/1/"}>
+                        <Link to={"/online-store-react-spa/catalog/pillows/1/"}>
                             <figure>
                                 <img src="/online-store-react-spa/images/small/pillow5-1.jpg" alt="Comfortable pillows" />
                                 <figcaption>Pillows</figcaption>

@@ -43,7 +43,7 @@ export default function Header() {
         <header id="hdr">
             <div className="container">
                 <div className="hdr-block">
-                    <Link to="/" className="logo">BlackPrick</Link>
+                    <Link to="/online-store-react-spa/" className="logo">BlackPrick</Link>
 
                     <div className="hdr-btns">
                         {/* <button className="hdr-btn">
@@ -56,7 +56,7 @@ export default function Header() {
                             <ul className="hdr-menu hidden">
                                 {Object.keys(categories).map(key => (
                                     <li key={key}>
-                                        <Link to={"/catalog/" + key + "/1/"}>
+                                        <Link to={"/online-store-react-spa/catalog/" + key + "/1/"}>
                                             {categories[key]}
                                         </Link>
                                     </li>
