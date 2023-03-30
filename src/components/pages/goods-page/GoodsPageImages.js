@@ -6,7 +6,7 @@ export default function AdPageImages(props) {
     const images = props.data.images;
     const label = props.data.label;
 
-    const [imgView, setView] = useState(<img src={'/images/large/' + label} alt={name} />);
+    const [imgView, setView] = useState(<img src={'/online-store-react-spa/images/large/' + label} alt={name} />);
 
     const displayImg = (e) => {
         let targetImg = e.target.firstChild;
