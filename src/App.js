@@ -20,7 +20,7 @@ function App() {
         <Header />
 
         <Routes>
-          <Route exact path="/" element={<Main />}></Route>
+          <Route exact path="/online-store-react-spa/" element={<Main />}></Route>
           <Route exact path="/catalog" element={<Error />}></Route>
           <Route path="/catalog/:category/:page/:sorting" element={<Catalog />}></Route>
           <Route path="/catalog/:category/:page/" element={<Catalog />}></Route>

@@ -35,19 +35,19 @@ export default function Main() {
                     <nav>
                         <Link to={"/catalog/beds/1/"}>
                             <figure>
-                                <img src="/images/small/bed2-1.jpg" alt="Luxury bed" />
+                                <img src="/online-store-react-spa/images/small/bed2-1.jpg" alt="Luxury bed" />
                                 <figcaption>Beds</figcaption>
                             </figure>
                         </Link>
                         <Link to={"/catalog/mattresses/1/"}>
                             <figure>
-                                <img src="/images/small/mattress1-1.jpg" alt="Memory foam mattress" />
+                                <img src="/online-store-react-spa/images/small/mattress1-1.jpg" alt="Memory foam mattress" />
                                 <figcaption>Mattresses</figcaption>
                             </figure>
                         </Link>
                         <Link to={"/catalog/pillows/1/"}>
                             <figure>
-                                <img src="/images/small/pillow5-1.jpg" alt="Comfortable pillows" />
+                                <img src="/online-store-react-spa/images/small/pillow5-1.jpg" alt="Comfortable pillows" />
                                 <figcaption>Pillows</figcaption>
                             </figure>
                         </Link>

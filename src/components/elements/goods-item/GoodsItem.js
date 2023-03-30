@@ -13,7 +13,7 @@ export default function AdItem(props) {
         <li className="goods-item">
             <figure>
                 <Link to={"/goods/" + goodsId} className="goods-item-img-link">
-                    <img src={'/images/small/' + info['label']} ref={imgRef} alt={info['name']} />
+                    <img src={'/online-store-react-spa/images/small/' + info['label']} ref={imgRef} alt={info['name']} />
                 </Link>
                 <figcaption>
                     <strong>{info['name']}</strong>

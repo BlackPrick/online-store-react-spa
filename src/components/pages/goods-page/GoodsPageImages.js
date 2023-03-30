@@ -20,7 +20,7 @@ export default function AdPageImages(props) {
         <div className="goods-page-images">
             <ul>
                 {images.map(function (item, key) {
-                    const image = <img src={'/images/large/' + item} alt={name} />;
+                    const image = <img src={'/online-store-react-spa/images/large/' + item} alt={name} />;
                     const setClass = (item === label) ? "active" : "";
                     return <li className={setClass} onClick={displayImg} key={key}>{image}</li>;
                 })}
