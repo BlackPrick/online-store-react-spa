@@ -29,7 +29,7 @@ export default function MainPromotions() {
                 <aside>
                     <strong>{heading}</strong>
                     <p>{textLines}</p>
-                    <Link to={link}>See more</Link>
+                    <Link to={link} aria-label={"See more about promotion: " + heading}>See more</Link>
                 </aside>
             </article>);
     })
