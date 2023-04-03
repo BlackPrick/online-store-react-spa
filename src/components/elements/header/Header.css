@@ -1,206 +1,264 @@
-#hdr {
-	position: sticky;
-	top: 0;
-	width: 100%;
-	box-sizing: content-box;
-	color: white;
-	background-color: black;
-	z-index: 3;
-}
-
-/*Header elements*/
-.hdr-block {
-	height: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	position: relative;
-}
-
-.logo {
-	font-family: "Modak";
-}
-.logo:hover {
-	color: var(--sel-color);
-}
-/* 
-.hdr-btns {
-	height: 100%;
-	display: inline-flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-} */
-
-.hdr-btns {
-	height: 100%;
-	display: inline-grid;
-	grid-template-columns: repeat(3, 1fr);
-	align-items: center;
-}
-
-.hdr-btn {
-	display: inline-flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-	color: white;
-	position: relative;
-	box-shadow: grey 0px 4px 6px -2px inset;
-	padding: 0 0.5vw;
-}
-.hdr-btn:hover {
-	box-shadow: grey 0px 4px 6px -4px inset;
-	outline: 1px dotted grey;
-	transition: 0.4s;
-}
-
-.hdr-btn:hover span {
-	color: var(--sel-color);
-	cursor: pointer;
-}
-
-.hdr-btn svg {
-	stroke: white;
-	fill: white;
-}
-
-.hdr-btn:hover svg:not(.hdr-menu svg) {
-	stroke: var(--sel-color);
-	fill: var(--sel-color);
-}
-
-/* Header drop-down menu */
-.hdr-menu {
-	top: 100%;
-	right: 0;
-	position: absolute;
-	background-color: black;
-
-}
-
-.hdr-menu li {
-	border-bottom: 0.1vw dotted white;
-}
-.hdr-menu li:last-child {
-	border: none;
-}
-
-.hdr-menu li:hover {
-	background-color: rgba(225, 225, 225, 0.3);
-}
-
-.hdr-menu li svg {
-	fill: white;
-	stroke: white;
-}
-
-.hdr-menu li a,
-.hdr-menu li button {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	color: white;
-	width: 100%;
-	height: 100%;
-}
-
-/*bookmarks and catalog drop-down menu*/
-.hdr-bookmarks,
-.hdr-catalog {
-	position: relative;
-}
-
-/* .hdr-bookmarks:hover,
-.hdr-catalog:hover {
-	outline: 1px dotted rgba(225, 225, 225, 0.4);
-} */
-
-.hdr-bookmarks:hover .hdr-menu,
-.hdr-catalog:hover .hdr-menu {
-	display: block !important;
-}
-
-/* Favorite icon style */
-.favorite-icon {
-	fill: none !important;
-}
-
-.favorite-icon.favor-icon-sel {
-	fill: rgba(225, 225, 225, 0.4) !important;
-}
-
 @media only screen and (min-width: 501px) {
 	#hdr {
+		position: sticky;
+		top: 0;
+		width: 100%;
 		height: 3.4rem;
 		padding: 0.1rem;
+		box-sizing: content-box;
+		color: white;
+		background-color: black;
+		z-index: 3;
 	}
+
+	/*Header elements*/
+	.hdr-block {
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		position: relative;
+	}
+
 	.logo {
+		font-family: "Modak";
 		font-size: 2rem;
 		margin-right: 10%;
 	}
+
+	.logo:hover {
+		color: var(--sel-color);
+	}
+
 	.hdr-btns {
+		height: 100%;
+		display: inline-grid;
+		grid-template-columns: repeat(3, 1fr);
+		align-items: center;
 		padding: 0 1vw;
 		column-gap: 2vw;
 	}
+
 	.hdr-btn {
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		color: white;
+		position: relative;
+		box-shadow: grey 0px 4px 6px -2px inset;
+		padding: 0 0.5vw;
 		font-size: 1rem;
 		padding: 0 0.2vw;
 	}
+
+	.hdr-btn:hover {
+		box-shadow: grey 0px 4px 6px -4px inset;
+		outline: 1px dotted grey;
+		transition: 0.4s;
+	}
+
+	.hdr-btn:hover span {
+		color: var(--sel-color);
+		cursor: pointer;
+	}
+
 	.hdr-btn svg {
+		stroke: white;
+		fill: white;
 		width: 2rem;
 		height: 2rem;
 	}
 
+	.hdr-btn:hover svg:not(.hdr-menu svg) {
+		stroke: var(--sel-color);
+		fill: var(--sel-color);
+	}
+
+	/* Header drop-down menu */
+	.hdr-menu {
+		top: 100%;
+		right: 0;
+		position: absolute;
+		background-color: black;
+
+	}
+
 	.hdr-menu li {
+		border-bottom: 0.1vw dotted white;
 		min-width: 15rem;
 	}
+
+	.hdr-menu li:last-child {
+		border: none;
+	}
+
+	.hdr-menu li:hover {
+		background-color: rgba(225, 225, 225, 0.3);
+	}
+
 	.hdr-menu li svg {
+		fill: white;
+		stroke: white;
 		width: 1.6rem;
 		height: 1.6rem;
 	}
-	
+
 	.hdr-menu li a,
 	.hdr-menu li button {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		color: white;
+		width: 100%;
+		height: 100%;
 		column-gap: 1rem;
 		padding: 0.8rem;
 		font-size: 1.1rem;
 	}
+
+	/*bookmarks and catalog drop-down menu*/
+	.hdr-bookmarks,
+	.hdr-catalog {
+		position: relative;
+	}
+
+	/* Favorite icon style */
+	.favorite-icon {
+		fill: none !important;
+	}
+
+	.favorite-icon.favor-icon-sel {
+		fill: rgba(225, 225, 225, 0.4) !important;
+	}
 }
+
 @media only screen and (max-width: 500px) {
 	#hdr {
+		position: sticky;
+		top: 0;
+		width: 100%;
+		box-sizing: content-box;
+		color: white;
+		background-color: black;
+		z-index: 3;
 		padding: 1vw 0;
 	}
+
+	/*Header elements*/
+	.hdr-block {
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		position: relative;
+	}
+
 	.logo {
+		font-family: "Modak";
 		font-size: 7.2vw;
 		margin-right: 2%;
 	}
+
+	.logo:hover {
+		color: var(--sel-color);
+	}
+
 	.hdr-btns {
+		height: 100%;
+		display: inline-grid;
+		grid-template-columns: repeat(3, 1fr);
+		align-items: center;
 		column-gap: 2vw;
 	}
+
 	.hdr-btn {
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		color: white;
+		position: relative;
+		box-shadow: grey 0px 4px 6px -2px inset;
+		padding: 0 0.5vw;
 		font-size: 3.8vw;
 		padding: 0 0.2vw;
+		position: relative;
 	}
+
+	.hdr-btn:hover {
+		box-shadow: grey 0px 4px 6px -4px inset;
+		outline: 1px dotted grey;
+		transition: 0.4s;
+	}
+
 	.hdr-btn svg {
+		stroke: white;
+		fill: white;
 		width: 8vw;
 		height: 8vw;
 	}
+
+	/* Header drop-down menu */
+	.hdr-menu {
+		position: fixed;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		background-color: rgba(0,0,0,0.3);
+		z-index: 4;
+	}
+
+	.hdr-menu ul {
+		width: 96%;
+		background-color: black;
+	}
+
 	.hdr-menu li {
+		border-bottom: 0.1vw dotted white;
 		min-width: 70vw;
 	}
+
+	.hdr-menu li:last-child {
+		border: none;
+	}
+
 	.hdr-menu li svg {
+		fill: white;
+		stroke: white;
 		width: 8vw;
 		height: 8vw;
 	}
-	
+
 	.hdr-menu li a,
 	.hdr-menu li button {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		color: white;
+		width: 100%;
+		height: 100%;
 		column-gap: 1vw;
 		padding: 4vw 2vw;
 		font-size: 5vw;
+	}
+
+	/* Favorite icon style */
+	.favorite-icon {
+		fill: none !important;
+	}
+
+	.favorite-icon.favor-icon-sel {
+		fill: rgba(225, 225, 225, 0.4) !important;
 	}
 }
 
@@ -311,7 +369,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-    border-radius: 1rem;
+	border-radius: 1rem;
 	font-size: 0.6rem;
 	font-weight: bold;
 	z-index: 2;
