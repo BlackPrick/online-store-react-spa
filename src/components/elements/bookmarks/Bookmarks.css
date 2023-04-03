@@ -116,9 +116,10 @@
     
     .bookmarks-wrap figcaption {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
         align-items: center;
+        column-gap: 4vw;
         padding: 0 4vw;
         font-size: 8vw;
         background-color: black;
@@ -129,11 +130,6 @@
     .bookmarks-wrap figcaption svg {
         height: 8vw;
         fill: white;
-    }
-    
-    .bookmarks-wrap figcaption svg:hover {
-        cursor: pointer;
-        fill: var(--sel-color);
     }
     
     .bookmarks-wrap figure ul {
@@ -162,9 +158,6 @@
     
     .bookmarks-item a::before {
         content: "\21D7";
-    }
-    .bookmarks-item button:hover svg {
-        fill: var(--sel-color);
     }
     .bookmarks-item svg {
         height: 8vw;

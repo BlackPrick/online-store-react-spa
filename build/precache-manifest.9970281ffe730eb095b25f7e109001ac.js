@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7ad491d3f27b1bcd062a",
-    "url": "/online-store-react-spa/static/css/main.bc9f7ae5.chunk.css"
+    "revision": "30b8faf51b79187f7fbf",
+    "url": "/online-store-react-spa/static/css/main.af6618f8.chunk.css"
   },
   {
-    "revision": "7ad491d3f27b1bcd062a",
-    "url": "/online-store-react-spa/static/js/main.7ad491d3.chunk.js"
+    "revision": "30b8faf51b79187f7fbf",
+    "url": "/online-store-react-spa/static/js/main.30b8faf5.chunk.js"
   },
   {
     "revision": "dcf916b92703013e6b2e",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/online-store-react-spa/static/media/Modak.9b6bdd26.ttf"
   },
   {
-    "revision": "5f3ab23c16e8b46a0effae445f5ef7d3",
+    "revision": "7d8657005ef18941071c19646ff47a7c",
     "url": "/online-store-react-spa/index.html"
   }
 ];

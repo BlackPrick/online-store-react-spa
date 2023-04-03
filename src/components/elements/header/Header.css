@@ -133,6 +133,26 @@
 	.favorite-icon.favor-icon-sel {
 		fill: rgba(225, 225, 225, 0.4) !important;
 	}
+
+
+	.icon-notification {
+		position: absolute;
+		top: 3%;
+		right: 3%;
+		width: 1rem;
+		height: 1rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		border-radius: 1rem;
+		font-size: 0.6rem;
+		font-weight: bold;
+		z-index: 2;
+		background-color: var(--sel-color);
+		color: black;
+		border: 1px solid white;
+	}
 }
 
 @media only screen and (max-width: 500px) {
@@ -214,13 +234,14 @@
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		background-color: rgba(0,0,0,0.3);
+		background-color: rgba(0,0,0,0.5);
 		z-index: 4;
 	}
 
 	.hdr-menu ul {
 		width: 96%;
 		background-color: black;
+		outline: 2px solid white;
 	}
 
 	.hdr-menu li {
@@ -249,7 +270,7 @@
 		height: 100%;
 		column-gap: 1vw;
 		padding: 4vw 2vw;
-		font-size: 5vw;
+		font-size: 6vw;
 	}
 
 	/* Favorite icon style */
@@ -259,6 +280,26 @@
 
 	.favorite-icon.favor-icon-sel {
 		fill: rgba(225, 225, 225, 0.4) !important;
+	}
+
+
+	.icon-notification {
+		position: absolute;
+		top: 3%;
+		right: 3%;
+		width: 4vw;
+		height: 4vw;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		border-radius: 1rem;
+		font-size: 0.6rem;
+		font-weight: bold;
+		z-index: 2;
+		background-color: var(--sel-color);
+		color: black;
+		border: 1px solid white;
 	}
 }
 
@@ -355,25 +396,4 @@
 
 .srch-hint-item-active {
 	background-color: rgba(225, 225, 225, 0.5);
-}
-
-
-/* Уведомления около икононок */
-.icon-notification {
-	position: absolute;
-	top: 1%;
-	right: 1%;
-	width: 1rem;
-	height: 1rem;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	border-radius: 1rem;
-	font-size: 0.6rem;
-	font-weight: bold;
-	z-index: 2;
-	background-color: var(--sel-color);
-	color: black;
-	border: 1px solid white;
 }
