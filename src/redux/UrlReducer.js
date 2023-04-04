@@ -1,13 +1,13 @@
 import { createSlice } from '@reduxjs/toolkit';
 
+const basename = "/online-store-react-spa";
 
 const urlReducerSlice = createSlice({
     name: 'basename',
     initialState: {
-        basename: "/online-store-react-spa",
-        // basename: window.location.pathname,
-        imgSrcLarge: window.location.pathname + "/images/large/",
-        imgSrcSmall: window.location.pathname + "/images/small/"
+        basename: basename,
+        imgSrcLarge: basename + "/images/large/",
+        imgSrcSmall: basename + "/images/small/"
     },
     reducers: {
        
