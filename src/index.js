@@ -12,9 +12,5 @@ root.render(
       <App />
     </Provider>
   </>
-
-  // <>
-  //   <App />
-  // </>
 );
 reportWebVitals();
