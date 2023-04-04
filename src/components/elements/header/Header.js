@@ -66,6 +66,7 @@ export default function Header() {
     useEffect(() => {
         window.scrollTo(0, 0);
         document.getElementById("bookmarks").classList.add("hidden");
+        document.getElementById("cart").classList.add("hidden");
     }, [location]);
 
 
@@ -76,11 +77,6 @@ export default function Header() {
                     <Link to="/" className="logo">BlackPrick</Link>
 
                     <div className="hdr-btns">
-                        {/* <button className="hdr-btn">
-                            <SearchIco />
-                            <span>Search</span>
-                        </button> */}
-
                         <div onClick={showHdrMenu} className="hdr-btn hdr-menu-block" title="Show categories">
                             <CategoriesIco />
                             <span>Categories</span>
@@ -119,20 +115,6 @@ export default function Header() {
                             {cartNotification}
                             <span>Cart</span>
                         </button>
-                    </div>
-
-                    <div className="hdr-srch hidden">
-                        <form>
-                            <input className="hdr-srch-inp" type="text" placeholder="Search" />
-                            <ul id="hdr-srch-res">
-                                <li>result</li>
-                                <li>result</li>
-                                <li>result</li>
-                                <li>result</li>
-                                <li>result</li>
-                                <li>result</li>
-                            </ul>
-                        </form>
                     </div>
                 </div>
             </div>

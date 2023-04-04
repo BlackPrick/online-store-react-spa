@@ -65,6 +65,7 @@
     
     .main-promotions aside a {
         border: 2px solid white;
+        color: white;
         font-size: 2rem;
         text-transform: uppercase;
         padding: 0.5rem 4rem;
@@ -133,6 +134,7 @@
     
     .main-promotions aside a {
         border: 2px solid white;
+        color: white;
         font-size: 7vw;
         text-transform: uppercase;
         padding: 2vw 0;
