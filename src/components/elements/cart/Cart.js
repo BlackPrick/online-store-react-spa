@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Cart.css';
 
 import goods from '../../../db/goods.json';
@@ -42,7 +43,7 @@ export default function Cart() {
                                         <img src={imgUrlSmall + goods[item].label} alt={goods[item].name} />
                                     </picture>
                                     <figcaption>
-                                        <a href={"/goods/" + item}><strong>{goods[item].name}</strong></a>
+                                        <Link to={"/goods/" + item}><strong>{goods[item].name}</strong></Link>
                                         <p className="cart-item-price">
                                             <b>&#36;{goods[item].price}</b>
                                             <span>Item total: &#36;{Number(cart[item] * Number(goods[item].price))}</span>
