@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import './Header.css';
 
-import { SearchIco, CategoriesIco, FavoritesIco, CartIco, PlusIco, DeleteIco } from '../../../Icons';
+import { CategoriesIco, FavoritesIco, CartIco, PlusIco, DeleteIco } from '../../../Icons';
 import categories from '../../../db/categories.json';
 
 import { useSelector, useDispatch } from 'react-redux';
