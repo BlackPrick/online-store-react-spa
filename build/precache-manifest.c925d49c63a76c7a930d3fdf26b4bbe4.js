@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/online-store-react-spa/static/media/Modak.9b6bdd26.ttf"
   },
   {
-    "revision": "f580627e3a7cb786fd4416b4ea98dc2a",
+    "revision": "ee8631334ce8e9f3183ea0f28c3cfb1e",
     "url": "/online-store-react-spa/index.html"
   }
 ];
