@@ -1,6 +1,8 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
+import { useSelector } from 'react-redux';
+import { selectBasename } from './redux/UrlReducer';
 
 import Header from './components/elements/header/Header';
 import Footer from './components/elements/footer/Footer';
@@ -12,11 +14,8 @@ import GoodsPage from './components/pages/goods-page/GoodsPage';
 import Error from './components/pages/error/Error';
 import DeliveryReturns from './components/pages/delivery-returns/DeliveryReturns';
 
-// import { basename } from './urls.json';
-// export const basename = window.location.pathname;
-
 function App() {
-  const basename = window.location.pathname;
+  const basename = useSelector(selectBasename);
   return (
     <>
       <Router basename={basename}>
