@@ -2,15 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Main.css';
 import Promotions from './MainPromotions';
-import { imgUrlSmall } from '../../../urls.json';
 
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { setPageName } from '../../../redux/BookmarksReducer';
+import { selectSmallImgSrc } from '../../../redux/UrlReducer';
 
 
 export default function Main() {
     const dispatch = useDispatch();
     dispatch(setPageName("Main page"));
+    const imgUrlSmall = useSelector(selectSmallImgSrc);
 
     return (
         <main className="main-page">

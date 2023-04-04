@@ -1,14 +1,16 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
 import './GoodsItem.css';
-import { imgUrlSmall } from '../../../urls.json';
+
+import { useSelector } from 'react-redux';
+import { selectSmallImgSrc } from '../../../redux/UrlReducer';
 
 
 export default function AdItem(props) {
-    let imgRef = React.createRef()
+    let imgRef = React.createRef();
+    const imgUrlSmall = useSelector(selectSmallImgSrc);
     const info = props.goodsInfo;
     const goodsId = props.goodsId;
-
 
     return (
         <li className="goods-item">

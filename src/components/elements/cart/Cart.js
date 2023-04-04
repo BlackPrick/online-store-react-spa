@@ -5,15 +5,15 @@ import goods from '../../../db/goods.json';
 
 import { useSelector, useDispatch } from 'react-redux';
 import { selectCart, selectCartTotal, remove, quantity } from '../../../redux/CartReducer';
+import { selectSmallImgSrc } from '../../../redux/UrlReducer';
 
 import { CloseIco } from '../../../Icons';
-import { imgUrlSmall } from '../../../urls.json';
-
 
 export default function Cart() {
     const dispatch = useDispatch();
     const cart = useSelector(selectCart);
     const cartTotal = useSelector(selectCartTotal);
+    const imgUrlSmall = useSelector(selectSmallImgSrc);
 
     const setQuantity = (e) => {
         let quant = e.target.value;

@@ -2,10 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './MainPromotions.css';
 import promotions from '../../../db/promotions.json';
-import { imgUrlLarge } from '../../../urls.json';
+
+import { useSelector } from 'react-redux';
+import { selectLargeImgSrc } from '../../../redux/UrlReducer';
 
 
 export default function MainPromotions() {
+    const imgUrlLarge = useSelector(selectLargeImgSrc);
     const imgOrientation = (imgId) => {
         const image = document.getElementById(imgId)
         let w = image.naturalWidth;

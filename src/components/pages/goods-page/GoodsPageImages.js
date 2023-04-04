@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { imgUrlLarge } from '../../../urls.json';
 
+import { useSelector } from 'react-redux';
+import { selectLargeImgSrc } from '../../../redux/UrlReducer';
 
 export default function AdPageImages(props) {
+    const imgUrlLarge = useSelector(selectLargeImgSrc);
     const name = props.data.name;
     const images = props.data.images;
     const label = props.data.label;

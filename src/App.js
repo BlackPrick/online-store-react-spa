@@ -12,10 +12,11 @@ import GoodsPage from './components/pages/goods-page/GoodsPage';
 import Error from './components/pages/error/Error';
 import DeliveryReturns from './components/pages/delivery-returns/DeliveryReturns';
 
-import { basename } from './urls.json';
+// import { basename } from './urls.json';
+// export const basename = window.location.pathname;
 
 function App() {
-  
+  const basename = window.location.pathname;
   return (
     <>
       <Router basename={basename}>
