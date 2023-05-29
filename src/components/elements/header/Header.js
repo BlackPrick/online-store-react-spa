@@ -74,7 +74,7 @@ export default function Header() {
         <header id="hdr">
             <div className="container">
                 <div className="hdr-block">
-                    <Link to="/" className="logo">BlackPrick</Link>
+                    <Link to="/" className="logo">Chernokolov</Link>
 
                     <div className="hdr-btns">
                         <div onClick={showHdrMenu} className="hdr-btn hdr-menu-block" title="Show categories">
